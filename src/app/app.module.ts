@@ -6,7 +6,6 @@ import { FormsModule } from '@angular/forms';
 import { TypModule } from './typ/typ.module';
 
 import { AppComponent } from './app.component';
-import { HomeComponent } from './home/home.component';
 import { ApiService } from './shared';
 import { routing } from './app.routing';
 
@@ -21,8 +20,7 @@ import { removeNgStyles, createNewHosts } from '@angularclass/hmr';
     routing
   ],
   declarations: [
-    AppComponent,
-    HomeComponent
+    AppComponent
   ],
   providers: [
     ApiService
